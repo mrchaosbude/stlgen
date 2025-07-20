@@ -18,6 +18,7 @@ python disk_shadow_stl_generator.py input.png output.stl \
 The script depends on `numpy` and `Pillow` being available in the Python
 environment.
 
+
 ## raytrace_verify.py
 
 `raytrace_verify.py` performs a minimal ray tracing step to validate that the
@@ -32,4 +33,3 @@ python raytrace_verify.py output.stl --shadow_output shadow.png --render_output 
 ```
 
 Both scripts require `numpy` and `Pillow` to run.
-
