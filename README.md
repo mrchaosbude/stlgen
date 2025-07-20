@@ -15,6 +15,10 @@ python disk_shadow_stl_generator.py input.png output.stl \
     --outer_radius 60 --hole_radius 20
 ```
 
+You can optionally choose different element shapes that build up the relief. Use
+`--shape cube` (default), `--shape cylinder`, `--shape pyramid` or
+`--shape mixed` to randomly mix them across the disk.
+
 The script depends on `numpy` and `Pillow` being available in the Python
 environment.
 
